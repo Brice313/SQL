@@ -52,9 +52,9 @@ WHERE
 											ELSE true_length + 2 * (true_w_h + true_h_w)
 						           	   END
 							--weight restriction ------------------------------------------------------------------
-							AND scale_weight <= CASE WHEN scale_weight_uom= 'grams' THEN  20 * 1000
-													 WHEN scale_weight_uom= 'pounds' THEN  20 * 2.20462
-													 ELSE 20
+							AND scale_weight <= CASE WHEN scale_weight_uom= 'grams' THEN  23 * 1000
+													 WHEN scale_weight_uom= 'pounds' THEN  23 * 2.20462
+													 ELSE 23
 												END
 							--FC connection and jurisdiction-------------------------------------------------------
 							AND destination_country_code='FR'
