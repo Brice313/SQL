@@ -1,0 +1,2 @@
+# SQL
+sample queries
